@@ -27,5 +27,5 @@ func main() {
 		fmt.Printf("failed to call Sayhello: %v", err)
 		return
 	}
-	fmt.Printf("server rsp: %s\n", rsp.Message)
+	fmt.Printf("recieved server rsp: %s\n", rsp.Message)
 }
